@@ -22,8 +22,8 @@ I’m most interested in backend development using Python, especially Django and
 - 🃏 [Blackjack](https://github.com/MaciejZiel/Blackjack)  
   C++ Blackjack game built with SFML, including full game logic and graphical interface.
 
-- 📚 [jsp-servlet-books-app](https://github.com/MaciejZiel/jsp-servlet-books-app)  
-  Java web application using Servlets, JSP and database integration (request/response, CRUD).
+- 🏁 [Motorsport_API](https://github.com/MaciejZiel/Motorsport_API)  
+  Production-ready Django REST API for motorsport data with JWT auth, season/race/results domain modeling, standings analytics, and tested PostgreSQL-ready architecture.
 
 - 🏎️ [f1-live-standings-api](https://github.com/MaciejZiel/f1-live-standings-api)  
   Python backend API exposing motorsport-related data, deployed and tested with real requests.
