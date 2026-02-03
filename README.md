@@ -19,10 +19,17 @@ I’m most interested in backend development using Python, especially Django and
 - Simple deployment and environment setup
 
 📌 Selected projects:
-- 🃏 Blackjack – C++ Blackjack game with SFML, including game logic and graphical interface
-- 📚 jsp-servlet-books-app – Java web application using Servlets, JSP and database integration
-- 🏎️ f1-live-standings-api – Python backend project exposing motorsport-related data via an API
-- 📱 F1InfoMobileApp – Android app related to Formula 1 telemetry and data display
+- 🃏 [Blackjack](https://github.com/MaciejZiel/Blackjack)  
+  C++ Blackjack game built with SFML, including full game logic and graphical interface.
+
+- 📚 [jsp-servlet-books-app](https://github.com/MaciejZiel/jsp-servlet-books-app)  
+  Java web application using Servlets, JSP and database integration (request/response, CRUD).
+
+- 🏎️ [f1-live-standings-api](https://github.com/MaciejZiel/f1-live-standings-api)  
+  Python backend API exposing motorsport-related data, deployed and tested with real requests.
+
+- 📱 [F1InfoMobileApp](https://github.com/MaciejZiel/F1InfoMobileApp)  
+  Android application focused on Formula 1 telemetry and live data preview.
 
 🎯 Currently looking for:
 Junior Backend Developer position (preferably Python / Django), available immediately or within one month.  
