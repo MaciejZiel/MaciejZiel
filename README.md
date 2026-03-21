@@ -1,39 +1,37 @@
 Hi 👋  
-I'm a 3rd year Computer Science student at PJATK (Programming & Robotics), currently looking for a Junior Backend Developer role.
+I'm a 3rd year Computer Science student at PJATK (Programming & Robotics).
 
-I’m most interested in backend development using Python, especially Django and related technologies. I enjoy building REST APIs, working with databases and writing backend logic that actually does something useful.
+I'm most interested in building practical software with Python — from backend systems and APIs to data-driven and AI-related applications. I enjoy creating projects that combine clean logic, real-world usefulness, and solid technical foundations.
 
 🔧 Tech stack:
-- Python (strongest) – REST APIs, backend logic
-- Java – academic and backend basics
-- SQL – basic queries and database integration
+- Python (strongest) – backend development, APIs, automation
+- Django / FastAPI / Flask – web apps and REST APIs
+- SQL – database integration and querying
+- Java – academic and backend fundamentals
 - Linux (Ubuntu) – daily use
 - Git – everyday workflow
-- Docker – basic usage
+- Docker – basic containerization and environment setup
 - Deployment: Render
 
-🧠 Backend experience:
+🧠 What I work on:
 - Designing and implementing REST APIs
-- Connecting APIs with databases
-- Writing basic tests
-- Simple deployment and environment setup
+- Connecting applications with databases and external data sources
+- Building practical Python applications with clear architecture
+- Writing tests and improving project reliability
+- Creating projects that combine backend logic, data processing, and user-facing functionality
 
 📌 Selected projects:
-- 🃏 [Blackjack](https://github.com/MaciejZiel/Blackjack)  
-  C++ Blackjack game built with SFML, including full game logic and graphical interface.
-
 - 🏁 [Motorsport_API](https://github.com/MaciejZiel/Motorsport_API)  
-  Production-ready Django REST API for motorsport data with JWT auth, season/race/results domain modeling, standings analytics, and tested PostgreSQL-ready architecture.
+  A production-minded Django REST API for motorsport data, featuring JWT authentication, role-based access, filtering, pagination, standings logic, tests, and PostgreSQL-ready architecture.
 
-- 🏎️ [f1-live-standings-api](https://github.com/MaciejZiel/f1-live-standings-api)  
-  Python backend API exposing motorsport-related data, deployed and tested with real requests.
+- 🎙️ [clip_to_text](https://github.com/MaciejZiel/clip_to_text)  
+  A FastAPI-based application for converting video and audio into text, with background processing, live progress updates, caching, SQLite history, and export support.
 
-- 📱 [F1InfoMobileApp](https://github.com/MaciejZiel/F1InfoMobileApp)  
-  Android application focused on Formula 1 telemetry and live data preview.
+- ✈️ [live_flights_map](https://github.com/MaciejZiel/live_flights_map)  
+  A larger full-stack project focused on real-time flight tracking, featuring live maps, replay mode, dashboards, alerts, and integration with multiple data providers.
 
-🎯 Currently looking for:
-Junior Backend Developer position (preferably Python / Django), available immediately or within one month.  
-Location: Warsaw, Poland.
+- ✋ [hand_gesture_control](https://github.com/MaciejZiel/hand_gesture_control)  
+  A computer vision project for real-time hand gesture recognition and control, combining Python, MediaPipe, OpenCV, testing, and a polished project structure.
 
 📫 Contact:
 LinkedIn: https://www.linkedin.com/in/maciej-zielinski-28669b3a4
