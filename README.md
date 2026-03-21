@@ -34,4 +34,4 @@ I'm most interested in building practical software with Python — from backend 
   A computer vision project for real-time hand gesture recognition and control, combining Python, MediaPipe, OpenCV, testing, and a polished project structure.
 
 📫 Contact:
-LinkedIn: https://www.linkedin.com/in/maciej-zielinski-28669b3a4
+LinkedIn: [https://www.linkedin.com/in/maciej-zielinski-28669b3a4](https://www.linkedin.com/in/maciej-zieli%C5%84skipjatk/)
