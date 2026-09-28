@@ -1,7 +1,7 @@
 Hi 
-I'm a 3rd year Computer Science student at PJATK (Programming & Robotics).
+I'm a 4rd year Computer Science student at PJATK (Programming & Robotics).
 
-Portfolio: [maciej-zielinski-portfolio.pages.dev](https://maciej-zielinski-portfolio.pages.dev/)
+Portfolio: [Personal Portfolio](https://maciej-zielinski-portfolio.pages.dev/)
 
 I'm most interested in building practical software with Python — from backend systems and APIs to data-driven and AI-related applications. I enjoy creating projects that combine clean logic, real-world usefulness, and solid technical foundations.
 
