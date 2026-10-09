@@ -29,7 +29,7 @@ I build practical software in Python — REST APIs and backend systems, data pip
 | Project | What it is | Stack |
 |---|---|---|
 | **[CaseFlow](https://github.com/MaciejZiel/caseflow)** | Production-style multi-tenant backend for case &amp; document workflows: org-based RBAC, versioned uploads, review flows, audit log, webhooks, background processing | FastAPI · PostgreSQL · Docker · pytest |
-| **[Motorsport API](https://github.com/MaciejZiel/Motorsport_API)** | REST API for motorsport data with JWT auth, roles, filtering, pagination and standings logic | Django REST · PostgreSQL · pytest |
+| **[Motorsport API](https://github.com/MaciejZiel/Motorsport_API)** | REST API for motorsport data with JWT auth, roles, filtering, pagination and standings logic | Django REST · PostgreSQL · pytest · [live demo](https://motorsport-api-uxdr.onrender.com) |
 | **[Live Flights Map](https://github.com/MaciejZiel/live_flights_map)** | Full-stack real-time flight tracking: live map, replay mode, dashboards and alerts across multiple data providers | Flask · SQLite · Svelte · Leaflet |
 | **[Agentic RAG Platform](https://github.com/MaciejZiel/agentic-rag-platform)** | Document intelligence platform: upload documents, ask grounded questions with source citations, extract structured data | FastAPI · PostgreSQL · Qdrant · React · Kubernetes |
 | **[Procurement Graph](https://github.com/MaciejZiel/procurement-graph)** | Traces Polish public procurement from buyer to supplier on 1,214 real BZP notices, with a relationship map and PL/EN UI | FastAPI · PostgreSQL · Docker |
