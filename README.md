@@ -1,41 +1,48 @@
-Hi 
-I'm a 4rd year Computer Science student at PJATK (Programming & Robotics).
+<h1 align="center">Hi, I'm Maciej Zieliński 👋</h1>
 
-Portfolio: [Personal Portfolio](https://maciej-zielinski-portfolio.pages.dev/)
+<p align="center">
+  <b>Junior Python backend developer</b> · 4th-year Computer Science student at PJATK (Programming &amp; Robotics) · Warsaw, Poland
+</p>
 
-I'm most interested in building practical software with Python — from backend systems and APIs to data-driven and AI-related applications. I enjoy creating projects that combine clean logic, real-world usefulness, and solid technical foundations.
+<p align="center">
+  <a href="https://maciej-zielinski-portfolio.pages.dev/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-visit-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/maciej-zieli%C5%84ski-28669b3a4/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+</p>
 
-Tech stack:
-- Python (strongest) – backend development, APIs, automation
-- Django / FastAPI / Flask – web apps and REST APIs
-- SQL – database integration and querying
-- Java – academic and backend fundamentals
-- Linux (Ubuntu) – daily use
-- Git – everyday workflow
-- Docker – basic containerization and environment setup
-- Deployment: Render
+I build practical software in Python — REST APIs and backend systems, data pipelines, and applied AI / computer vision. I care about clean architecture, tests, and projects that solve a real problem.
 
-What I work on:
-- Designing and implementing REST APIs
-- Connecting applications with databases and external data sources
-- Building practical Python applications with clear architecture
-- Writing tests and improving project reliability
-- Creating projects that combine backend logic, data processing, and user-facing functionality
+## 🛠️ Tech stack
 
-Selected projects:
-- [caseflow](https://github.com/MaciejZiel/caseflow)  
-  A production-style FastAPI backend for case and document workflows, featuring multi-tenant architecture, organization-based RBAC, versioned uploads, review flows, audit logs, webhooks, session-backed authentication, background processing, tests, and Docker-based local development.
+<p>
+  <img alt="Tech stack" src="https://skillicons.dev/icons?i=python,fastapi,django,flask,postgres,sqlite,docker,linux,git,githubactions,java,ts,svelte,opencv&perline=14">
+</p>
 
-- [Motorsport_API](https://github.com/MaciejZiel/Motorsport_API)  
-  A production-minded Django REST API for motorsport data, featuring JWT authentication, role-based access, filtering, pagination, standings logic, tests, and PostgreSQL-ready architecture.
+| Area | Tools |
+|---|---|
+| **Backend** | Python (strongest), FastAPI, Django REST Framework, Flask, SQLAlchemy, Alembic, background jobs |
+| **Data & AI** | SQL / PostgreSQL, Qdrant, pandas, RAG pipelines, OpenCV, MediaPipe |
+| **Tooling** | Docker, Git, GitHub Actions, Linux (Ubuntu daily), pytest, Render / Cloudflare Pages |
+| **Also** | Java (JMS, Servlets), TypeScript, Svelte, Kotlin (Android) |
 
-- [clip_to_text](https://github.com/MaciejZiel/clip_to_text)  
-  A FastAPI-based application for converting video and audio into text, with background processing, live progress updates, caching, SQLite history, and export support.
+## 🚀 Featured projects
 
-- [hand_gesture_control](https://github.com/MaciejZiel/hand_gesture_control)  
-  A computer vision project for real-time hand gesture recognition and control, combining Python, MediaPipe, OpenCV, testing, and a polished project structure.
+| Project | What it is | Stack |
+|---|---|---|
+| **[CaseFlow](https://github.com/MaciejZiel/caseflow)** | Production-style multi-tenant backend for case &amp; document workflows: org-based RBAC, versioned uploads, review flows, audit log, webhooks, background processing | FastAPI · PostgreSQL · Docker · pytest |
+| **[Motorsport API](https://github.com/MaciejZiel/Motorsport_API)** | REST API for motorsport data with JWT auth, roles, filtering, pagination and standings logic | Django REST · PostgreSQL · pytest |
+| **[Live Flights Map](https://github.com/MaciejZiel/live_flights_map)** | Full-stack real-time flight tracking: live map, replay mode, dashboards and alerts across multiple data providers | Flask · SQLite · Svelte · Leaflet |
+| **[Agentic RAG Platform](https://github.com/MaciejZiel/agentic-rag-platform)** | Document intelligence platform: upload documents, ask grounded questions with source citations, extract structured data | FastAPI · PostgreSQL · Qdrant · React · Kubernetes |
+| **[Procurement Graph](https://github.com/MaciejZiel/procurement-graph)** | Traces Polish public procurement from buyer to supplier on 1,214 real BZP notices, with a relationship map and PL/EN UI | FastAPI · PostgreSQL · Docker |
+| **[clip_to_text](https://github.com/MaciejZiel/clip_to_text)** | Video/audio → text transcription with background jobs, live progress, caching, history and export | FastAPI · FFmpeg · SQLite |
 
-- [live_flights_map](https://github.com/MaciejZiel/live_flights_map)  
-  A larger full-stack project focused on real-time flight tracking, featuring live maps, replay mode, dashboards, alerts, and integration with multiple data providers.
-Contact:
-- LinkedIn: [maciej-zieliński-28669b3a4](https://www.linkedin.com/in/maciej-zieli%C5%84skipjatk/)
+<sub>More in <a href="https://github.com/MaciejZiel?tab=repositories">repositories</a> and on my <a href="https://maciej-zielinski-portfolio.pages.dev/">portfolio</a>.</sub>
+
+## 🌱 Currently
+
+- Writing my engineering thesis on real-time motion tracking with computer vision
+- Building a personal inflation tracker that reads shopping receipts on the phone (on-device OCR, PWA)
+- Looking for a **junior backend / Python developer** role or internship in Warsaw or remote
+
+## 📫 Contact
+
+✉️ zielinski.macio@gmail.com · [LinkedIn](https://www.linkedin.com/in/maciej-zieli%C5%84ski-28669b3a4/) · [Portfolio](https://maciej-zielinski-portfolio.pages.dev/)
