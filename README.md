@@ -19,7 +19,7 @@ I build practical software in Python — REST APIs and backend systems, data pip
 
 | Area | Tools |
 |---|---|
-| **Backend** | Python (strongest), FastAPI, Django REST Framework, Flask, SQLAlchemy, Alembic, background jobs |
+| **Backend** | Python (strongest), FastAPI, Django REST Framework, Flask, SQLAlchemy, Alembic, asyncio, background jobs |
 | **Data & AI** | SQL / PostgreSQL, Qdrant, pandas, RAG pipelines, OpenCV, MediaPipe |
 | **Tooling** | Docker, Git, GitHub Actions, Linux (Ubuntu daily), pytest, Render / Cloudflare Pages |
 | **Also** | Java (JMS, Servlets), TypeScript, Svelte, Kotlin (Android) |
@@ -28,12 +28,20 @@ I build practical software in Python — REST APIs and backend systems, data pip
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[CaseFlow](https://github.com/MaciejZiel/caseflow)** | Production-style multi-tenant backend for case &amp; document workflows: org-based RBAC, versioned uploads, review flows, audit log, webhooks, background processing | FastAPI · PostgreSQL · Docker · pytest |
-| **[Motorsport API](https://github.com/MaciejZiel/Motorsport_API)** | REST API for motorsport data with JWT auth, roles, filtering, pagination and standings logic | Django REST · PostgreSQL · pytest |
-| **[Live Flights Map](https://github.com/MaciejZiel/live_flights_map)** | Full-stack real-time flight tracking: live map, replay mode, dashboards and alerts across multiple data providers | Flask · SQLite · Svelte · Leaflet |
-| **[Agentic RAG Platform](https://github.com/MaciejZiel/agentic-rag-platform)** | Document intelligence platform: upload documents, ask grounded questions with source citations, extract structured data | FastAPI · PostgreSQL · Qdrant · React · Kubernetes |
-| **[Procurement Graph](https://github.com/MaciejZiel/procurement-graph)** | Traces Polish public procurement from buyer to supplier on 1,214 real BZP notices, with a relationship map and PL/EN UI | FastAPI · PostgreSQL · Docker |
-| **[clip_to_text](https://github.com/MaciejZiel/clip_to_text)** | Video/audio → text transcription with background jobs, live progress, caching, history and export | FastAPI · FFmpeg · SQLite |
+| **[CaseFlow](https://github.com/MaciejZiel/caseflow)** | Multi-tenant backend for case &amp; document workflows: tenant isolation, RBAC, versioned uploads, review flows, audit log, signed webhooks and retryable background work, with a Next.js workspace | FastAPI · PostgreSQL · Next.js · Docker |
+| **[pgqueue](https://github.com/MaciejZiel/pgqueue)** | Background job queue that runs only on PostgreSQL: `SKIP LOCKED` claiming, retries with backoff, leases with crash recovery, LISTEN/NOTIFY wake-ups, cron, dashboard and Prometheus metrics. ~6,600 jobs/s with 8 workers and ~4 ms pickup latency on a laptop | Python · asyncpg · PostgreSQL · FastAPI |
+| **[Motorsport API](https://github.com/MaciejZiel/Motorsport_API)** | REST API for a fictional championship with computed standings, cookie- or token-based JWT auth and OpenAPI docs, plus a new Angular dashboard on top | Django REST · PostgreSQL · Angular |
+| **[Agentic RAG Platform](https://github.com/MaciejZiel/agentic-rag-platform)** | Upload documents and get answers with source citations: background indexing on a worker, tenant-scoped retrieval, TOTP 2FA, structured extraction to JSON | FastAPI · PostgreSQL · Qdrant · Celery · React |
+| **[Procurement Graph](https://github.com/MaciejZiel/procurement-graph)** | Traces Polish public procurement from buyer to supplier on 1,214 real BZP notices, with SQL analytics, a relationship map and PL/EN UI | FastAPI · PostgreSQL · React |
+| **[Live Flights Map](https://github.com/MaciejZiel/live_flights_map)** | Self-hosted live air-traffic map from public ADS-B feeds, with flight and airport details and replay from a local archive | Flask · SQLite · Svelte · Leaflet |
+| **[plan-bot](https://github.com/MaciejZiel/plan-bot)** | Telegram and Discord bot for university timetables from ICS feeds: next class, reminders and change alerts, DST-safe recurrence | Python · aiohttp · discord.py · SQLAlchemy |
+
+<p>
+  <a href="https://github.com/MaciejZiel/Motorsport_API"><img src="https://raw.githubusercontent.com/MaciejZiel/Motorsport_API/master/docs/screenshots/standings.png" alt="Motorsport API: championship standings in the Angular dashboard" width="49%"></a>
+  <a href="https://github.com/MaciejZiel/caseflow"><img src="https://raw.githubusercontent.com/MaciejZiel/caseflow/master/docs/images/dashboard.png" alt="CaseFlow: case list in the Next.js workspace" width="49%"></a>
+</p>
+
+Also: **[Reroute](https://github.com/MaciejZiel/Reroute)**, a local-first Warsaw transit control room with live vehicle positions, line punctuality and rerouting around closures (FastAPI · PostGIS · React · MapLibre).
 
 <sub>More in <a href="https://github.com/MaciejZiel?tab=repositories">repositories</a> and on my <a href="https://maciej-zielinski-portfolio.pages.dev/">portfolio</a>.</sub>
 
