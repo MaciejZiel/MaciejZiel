@@ -28,7 +28,7 @@ I build practical software in Python — REST APIs and backend systems, data pip
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard)** | pytest plugin that catches N+1 queries and enforces query budgets for SQLAlchemy 2 (sync, async and FastAPI `TestClient`), pointing to the offending line and suggesting the `selectinload` fix. On [PyPI](https://pypi.org/project/pytest-queryguard/) as [v0.1.0](https://github.com/MaciejZiel/pytest-queryguard/releases/tag/v0.1.0), 116 tests, 98% coverage | Python · pytest · SQLAlchemy · PostgreSQL-ready · PyPI |
+| **[pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard)** | pytest plugin that catches N+1 queries, enforces query budgets and finds missing PostgreSQL indexes for SQLAlchemy 2 (sync, async and FastAPI `TestClient`), pointing to the offending line and suggesting the fix (`selectinload`, `CREATE INDEX`). On [PyPI](https://pypi.org/project/pytest-queryguard/) as [v0.3.0](https://github.com/MaciejZiel/pytest-queryguard/releases/tag/v0.3.0), 630+ tests, 99% coverage | Python · pytest · SQLAlchemy · PostgreSQL · asyncpg · PyPI |
 | **[CaseFlow](https://github.com/MaciejZiel/caseflow)** | Multi-tenant backend for case &amp; document workflows: tenant isolation, RBAC, versioned uploads, review flows, audit log, signed webhooks and retryable background work, with a Next.js workspace | FastAPI · PostgreSQL · Next.js · Docker |
 | **[pgqueue](https://github.com/MaciejZiel/pgqueue)** | Background job queue that runs only on PostgreSQL: `SKIP LOCKED` claiming, retries with backoff, leases with crash recovery, LISTEN/NOTIFY wake-ups, cron, dashboard and Prometheus metrics. ~6,600 jobs/s with 8 workers and ~4 ms pickup latency on a laptop | Python · asyncpg · PostgreSQL · FastAPI |
 | **[Motorsport API](https://github.com/MaciejZiel/Motorsport_API)** | REST API for a fictional championship with computed standings, cookie- or token-based JWT auth and OpenAPI docs, plus a new Angular dashboard on top | Django REST · PostgreSQL · Angular |
@@ -45,6 +45,10 @@ I build practical software in Python — REST APIs and backend systems, data pip
 Also: **[Reroute](https://github.com/MaciejZiel/Reroute)**, a local-first Warsaw transit control room with live vehicle positions, line punctuality and rerouting around closures (FastAPI · PostGIS · React · MapLibre).
 
 <sub>More in <a href="https://github.com/MaciejZiel?tab=repositories">repositories</a> and on my <a href="https://maciej-zielinski-portfolio.pages.dev/">portfolio</a>.</sub>
+
+## 🤝 Open source
+
+- **[sqlalchemy-utils #838](https://github.com/kvesteri/sqlalchemy-utils/pull/838)**: fixed the Read the Docs build so autodoc can import the package (merged).
 
 ## 🌱 Currently
 
