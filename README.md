@@ -21,7 +21,7 @@ I build practical software in Python — REST APIs and backend systems, data pip
 |---|---|
 | **Backend** | Python (strongest), FastAPI, Django REST Framework, Flask, SQLAlchemy, Alembic, asyncio, background jobs |
 | **Data & AI** | SQL / PostgreSQL, Qdrant, pandas, RAG pipelines, OpenCV, MediaPipe |
-| **Tooling** | Docker, Git, GitHub Actions, Linux (Ubuntu daily), pytest, Render / Cloudflare Pages |
+| **Tooling** | Docker, Git, GitHub Actions, Linux (Ubuntu daily), pytest (incl. plugins), PyPI publishing, Render / Cloudflare Pages |
 | **Also** | Java (JMS, Servlets), TypeScript, Svelte, Kotlin (Android) |
 
 ## 🚀 Featured projects
