@@ -21,13 +21,14 @@ I build practical software in Python — REST APIs and backend systems, data pip
 |---|---|
 | **Backend** | Python (strongest), FastAPI, Django REST Framework, Flask, SQLAlchemy, Alembic, asyncio, background jobs |
 | **Data & AI** | SQL / PostgreSQL, Qdrant, pandas, RAG pipelines, OpenCV, MediaPipe |
-| **Tooling** | Docker, Git, GitHub Actions, Linux (Ubuntu daily), pytest, Render / Cloudflare Pages |
+| **Tooling** | Docker, Git, GitHub Actions, Linux (Ubuntu daily), pytest (incl. plugins), PyPI publishing, Render / Cloudflare Pages |
 | **Also** | Java (JMS, Servlets), TypeScript, Svelte, Kotlin (Android) |
 
 ## 🚀 Featured projects
 
 | Project | What it is | Stack |
 |---|---|---|
+| **[pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard)** | pytest plugin that catches N+1 queries and enforces query budgets for SQLAlchemy 2 (sync, async and FastAPI `TestClient`), pointing to the offending line and suggesting the `selectinload` fix. On [PyPI](https://pypi.org/project/pytest-queryguard/) as [v0.1.0](https://github.com/MaciejZiel/pytest-queryguard/releases/tag/v0.1.0), 116 tests, 98% coverage | Python · pytest · SQLAlchemy · PostgreSQL-ready · PyPI |
 | **[CaseFlow](https://github.com/MaciejZiel/caseflow)** | Multi-tenant backend for case &amp; document workflows: tenant isolation, RBAC, versioned uploads, review flows, audit log, signed webhooks and retryable background work, with a Next.js workspace | FastAPI · PostgreSQL · Next.js · Docker |
 | **[pgqueue](https://github.com/MaciejZiel/pgqueue)** | Background job queue that runs only on PostgreSQL: `SKIP LOCKED` claiming, retries with backoff, leases with crash recovery, LISTEN/NOTIFY wake-ups, cron, dashboard and Prometheus metrics. ~6,600 jobs/s with 8 workers and ~4 ms pickup latency on a laptop | Python · asyncpg · PostgreSQL · FastAPI |
 | **[Motorsport API](https://github.com/MaciejZiel/Motorsport_API)** | REST API for a fictional championship with computed standings, cookie- or token-based JWT auth and OpenAPI docs, plus a new Angular dashboard on top | Django REST · PostgreSQL · Angular |
