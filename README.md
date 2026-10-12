@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://maciej-zielinski-portfolio.pages.dev/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-visit-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/maciej-zieli%C5%84ski-28669b3a4/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://maciej-zielinski-portfolio.pages.dev/"><img alt="Open my portfolio" height="52" src="https://img.shields.io/badge/Portfolio-open_my_site-2EA043?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/maciej-zieli%C5%84ski-28669b3a4/"><img alt="LinkedIn" height="52" src="https://img.shields.io/badge/LinkedIn-connect_with_me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </p>
 
 I build practical software in Python — REST APIs and backend systems, data pipelines, and applied AI / computer vision. I care about clean architecture, tests, and projects that solve a real problem.
