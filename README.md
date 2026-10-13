@@ -38,6 +38,20 @@ I build practical software in Python — REST APIs and backend systems, data pip
   <a href="https://github.com/MaciejZiel/caseflow"><img src="https://raw.githubusercontent.com/MaciejZiel/caseflow/master/docs/images/dashboard.png" alt="CaseFlow: case list in the Next.js workspace" width="49%"></a>
 </p>
 
+**Self-hosted demos** · [status](https://status.maciejzielinski.dev)
+
+### More projects
+
+| Project | What it is |
+|---|---|
+| **[pgqueue](https://github.com/MaciejZiel/pgqueue)** | Background job queue that runs only on PostgreSQL: `SKIP LOCKED` claiming, retries with backoff, leases with crash recovery, LISTEN/NOTIFY wake-ups, cron, dashboard and Prometheus metrics. ~6,600 jobs/s with 8 workers and ~4 ms pickup latency on a laptop. **[Live demo](https://pgqueue.maciejzielinski.dev)** |
+| **[gtfs-rt-kit](https://github.com/MaciejZiel/gtfs-rt-kit)** | Typed Python client and toolkit for GTFS-Realtime feeds (vehicle positions, trip updates, alerts) and static GTFS: sync and async clients with retries, vehicle matching and delays, CLI. On [PyPI](https://pypi.org/project/gtfs-rt-kit/) with [docs](https://maciejziel.github.io/gtfs-rt-kit/) |
+| **[plan-bot](https://github.com/MaciejZiel/plan-bot)** | Telegram and Discord bot for university timetables from ICS feeds: next class, reminders and change alerts, DST-safe recurrence |
+| **[firm-radar](https://github.com/MaciejZiel/firm-radar)** | Profile of a Polish company from official public registries (KRS, VAT white list, BZP procurement), stored as snapshots so it shows what changed and when. JSON API plus a PL/EN web UI |
+| **[Motorsport API](https://github.com/MaciejZiel/Motorsport_API)** | REST API for a fictional championship with computed standings, cookie- or token-based JWT auth and OpenAPI docs, plus a new Angular dashboard on top |
+| **[Agentic RAG Platform](https://github.com/MaciejZiel/agentic-rag-platform)** | Upload documents and get answers with source citations: background indexing on a worker, tenant-scoped retrieval, TOTP 2FA, structured extraction to JSON |
+| **[Procurement Graph](https://github.com/MaciejZiel/procurement-graph)** | Traces Polish public procurement from buyer to supplier on 1,214 real BZP notices, with SQL analytics, a relationship map and PL/EN UI |
+
 <sub>More in <a href="https://github.com/MaciejZiel?tab=repositories">repositories</a> and on my <a href="https://maciejzielinski.dev/">portfolio</a>.</sub>
 
 ## 🤝 Open source
