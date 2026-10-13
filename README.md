@@ -2,27 +2,29 @@
 
 [![PyPI](https://img.shields.io/pypi/v/pytest-queryguard?label=pytest-queryguard&logo=pypi&logoColor=white)](https://pypi.org/project/pytest-queryguard/)
 
-## 👋 About
+## About
 
-Junior Python backend developer and 4th-year Computer Science student at PJATK in Warsaw. I build practical software in Python: REST APIs and backend systems, data pipelines, and applied AI. I care about clean architecture, tests, and projects that solve a real problem.
+I'm a junior Python backend developer and a fourth-year Computer Science student at PJATK in Warsaw. I mostly write Python: REST APIs and backend systems, data pipelines and some applied AI. I like clean architecture and tests, and I prefer projects that solve a real problem.
 
 **Looking for a junior backend / Python developer role or internship in Warsaw or remote.**
 
-## 🚀 Projects
+<img src="https://skillicons.dev/icons?i=py,fastapi,postgres,docker,ts,react,svelte,git,linux&perline=9" alt="Technologies I use: Python, FastAPI, PostgreSQL, Docker, TypeScript, React, Svelte, Git and Linux" height="40">
+
+## Projects
 
 | Project | What it is | Links |
 | :-- | :-- | :-- |
-| 📦 **pytest-queryguard** | pytest plugin that fails tests hiding N+1 queries and missing indexes in SQLAlchemy 2 code. On PyPI (stable 0.3.0, 0.4 release candidates in progress). | [Source](https://github.com/MaciejZiel/pytest-queryguard) · [PyPI](https://pypi.org/project/pytest-queryguard/) |
-| ✈️ **Contrail** | Self-hosted real-time flight tracker with a WebGL map, a photo per aircraft, the full track and the route ahead. | [Try it live](https://contrail.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/contrail) |
-| 🚌 **Reroute** | Live Warsaw transit with delays; collects GTFS-Realtime data in PostgreSQL/PostGIS for an upcoming delay-prediction model. | [Try it live](https://reroute.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/Reroute) |
-| 🗂️ **CaseFlow** | Multi-tenant FastAPI backend for case and document workflows with RBAC, audit log and signed webhooks. | [Source](https://github.com/MaciejZiel/caseflow) |
-| 🎬 **clip_to_text** | Local video-to-text transcription with queued jobs, live progress and SRT export. | [Source](https://github.com/MaciejZiel/clip_to_text) |
-| ⚙️ **pgqueue** | Background job queue on PostgreSQL (`SKIP LOCKED`, leases, retries, dashboard). | [Try it live](https://pgqueue.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/pgqueue) |
-| 🤖 **plan-bot** | Telegram and Discord bot for university timetables from ICS feeds. | [Source](https://github.com/MaciejZiel/plan-bot) |
+| **pytest-queryguard** | pytest plugin that fails tests hiding N+1 queries and missing indexes in SQLAlchemy 2 code. On PyPI (stable 0.3.0, 0.4 release candidates in progress). | [Source](https://github.com/MaciejZiel/pytest-queryguard) · [PyPI](https://pypi.org/project/pytest-queryguard/) |
+| **Contrail** | Self-hosted real-time flight tracker with a WebGL map, a photo per aircraft, the full track and the route ahead. | [Try it live](https://contrail.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/contrail) |
+| **Reroute** | Live Warsaw transit with delays; collects GTFS-Realtime data in PostgreSQL/PostGIS for an upcoming delay-prediction model. | [Try it live](https://reroute.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/Reroute) |
+| **CaseFlow** | Multi-tenant FastAPI backend for case and document workflows with RBAC, audit log and signed webhooks. | [Source](https://github.com/MaciejZiel/caseflow) |
+| **clip_to_text** | Local video-to-text transcription with queued jobs, live progress and SRT export. | [Source](https://github.com/MaciejZiel/clip_to_text) |
+| **pgqueue** | Background job queue on PostgreSQL (`SKIP LOCKED`, leases, retries, dashboard). | [Try it live](https://pgqueue.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/pgqueue) |
+| **plan-bot** | Telegram and Discord bot for university timetables from ICS feeds. | [Source](https://github.com/MaciejZiel/plan-bot) |
 
 Self-hosted demos: [System status](https://status.maciejzielinski.dev)
 
-## 🌍 Open source
+## Open source
 
 Merged:
 
@@ -37,6 +39,6 @@ Open:
 
 Also a [Stack Overflow answer](https://stackoverflow.com/a/80009289) on mapping a PostgreSQL view without a primary key in the SQLAlchemy ORM.
 
-## 📬 Contact
+## Contact
 
 [Portfolio](https://maciejzielinski.dev/) · [LinkedIn](https://www.linkedin.com/in/maciej-zieli%C5%84ski-28669b3a4/) · zielinski.macio@gmail.com
