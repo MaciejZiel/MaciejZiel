@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://maciej-zielinski-portfolio.pages.dev/"><img alt="Open my portfolio" height="52" src="https://img.shields.io/badge/Portfolio-open_my_site-2EA043?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
+  <a href="https://maciejzielinski.dev/"><img alt="Open my portfolio" height="52" src="https://img.shields.io/badge/Portfolio-open_my_site-2EA043?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/maciej-zieli%C5%84ski-28669b3a4/"><img alt="LinkedIn" height="52" src="https://img.shields.io/badge/LinkedIn-connect_with_me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </p>
 
@@ -46,7 +46,7 @@ I build practical software in Python — REST APIs and backend systems, data pip
 
 Also: **[Reroute](https://github.com/MaciejZiel/Reroute)**, a local-first Warsaw transit control room with live vehicle positions, line punctuality and rerouting around closures (FastAPI · PostGIS · React · MapLibre).
 
-<sub>More in <a href="https://github.com/MaciejZiel?tab=repositories">repositories</a> and on my <a href="https://maciej-zielinski-portfolio.pages.dev/">portfolio</a>.</sub>
+<sub>More in <a href="https://github.com/MaciejZiel?tab=repositories">repositories</a> and on my <a href="https://maciejzielinski.dev/">portfolio</a>.</sub>
 
 ## 🤝 Open source
 
@@ -60,4 +60,4 @@ Also: **[Reroute](https://github.com/MaciejZiel/Reroute)**, a local-first Warsaw
 
 ## 📫 Contact
 
-✉️ zielinski.macio@gmail.com · [LinkedIn](https://www.linkedin.com/in/maciej-zieli%C5%84ski-28669b3a4/) · [Portfolio](https://maciej-zielinski-portfolio.pages.dev/)
+✉️ zielinski.macio@gmail.com · [LinkedIn](https://www.linkedin.com/in/maciej-zieli%C5%84ski-28669b3a4/) · [Portfolio](https://maciejzielinski.dev/)
