@@ -54,9 +54,20 @@ I build practical software in Python — REST APIs and backend systems, data pip
 
 <sub>More in <a href="https://github.com/MaciejZiel?tab=repositories">repositories</a> and on my <a href="https://maciejzielinski.dev/">portfolio</a>.</sub>
 
-## 🤝 Open source
+## 🤝 Open-source contributions
 
-- **[sqlalchemy-utils #838](https://github.com/kvesteri/sqlalchemy-utils/pull/838)**: fixed the Read the Docs build so autodoc can import the package (merged).
+Merged:
+
+- **[cleder/awesome-python-testing #135](https://github.com/cleder/awesome-python-testing/pull/135)**: added pytest-queryguard to the Tools list.
+- **[sqlalchemy-utils #838](https://github.com/kvesteri/sqlalchemy-utils/pull/838)**: fixed the Read the Docs build so autodoc can import the package.
+
+Open:
+
+- **[pytest #15164](https://github.com/pytest-dev/pytest/pull/15164)**: make `Pytester.syspathinsert()` affect subprocesses, picking up an earlier attempt by another contributor.
+- **[pytest-xdist #1397](https://github.com/pytest-dev/pytest-xdist/issues/1397)**: reported that `is_xdist_controller()` cannot be used from config-only hooks and raises when xdist is disabled, and proposed the fix. The maintainer's [PR #1398](https://github.com/pytest-dev/pytest-xdist/pull/1398) follows that approach and is still open.
+- **[awesome-sqlalchemy #85](https://github.com/dahlia/awesome-sqlalchemy/pull/85)**: add pytest-queryguard to the Testing section.
+
+Also: a [Stack Overflow answer](https://stackoverflow.com/a/80009289) on mapping an existing PostgreSQL view without a primary key in the SQLAlchemy ORM.
 
 ## 🌱 Currently
 
