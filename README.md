@@ -1,22 +1,28 @@
 # Hi, I'm Maciej Zieliński
 
+[![PyPI](https://img.shields.io/pypi/v/pytest-queryguard?label=pytest-queryguard&logo=pypi&logoColor=white)](https://pypi.org/project/pytest-queryguard/)
+
+## 👋 About
+
 Junior Python backend developer and 4th-year Computer Science student at PJATK in Warsaw. I build practical software in Python: REST APIs and backend systems, data pipelines, and applied AI. I care about clean architecture, tests, and projects that solve a real problem.
 
-[Portfolio](https://maciejzielinski.dev/) · [LinkedIn](https://www.linkedin.com/in/maciej-zieli%C5%84ski-28669b3a4/) · zielinski.macio@gmail.com
+**Looking for a junior backend / Python developer role or internship in Warsaw or remote.**
 
-## Projects
+## 🚀 Projects
 
-1. **[pytest-queryguard](https://github.com/MaciejZiel/pytest-queryguard)**: pytest plugin that fails tests hiding N+1 queries and missing indexes in SQLAlchemy 2 code. On [PyPI](https://pypi.org/project/pytest-queryguard/) (stable 0.3.0, 0.4 release candidates in progress).
-2. **[Contrail](https://github.com/MaciejZiel/contrail)**: self-hosted real-time flight tracker with a WebGL map, a photo per aircraft, the full track and the route ahead. [Try it live](https://contrail.maciejzielinski.dev)
-3. **[Reroute](https://github.com/MaciejZiel/Reroute)**: live Warsaw transit with delays; collects GTFS-Realtime data in PostgreSQL/PostGIS for an upcoming delay-prediction model. [Try it live](https://reroute.maciejzielinski.dev)
-4. **[CaseFlow](https://github.com/MaciejZiel/caseflow)**: multi-tenant FastAPI backend for case and document workflows with RBAC, audit log and signed webhooks.
-5. **[clip_to_text](https://github.com/MaciejZiel/clip_to_text)**: local video-to-text transcription with queued jobs, live progress and SRT export.
-6. **[pgqueue](https://github.com/MaciejZiel/pgqueue)**: background job queue on PostgreSQL (`SKIP LOCKED`, leases, retries, dashboard). [Try it live](https://pgqueue.maciejzielinski.dev)
-7. **[plan-bot](https://github.com/MaciejZiel/plan-bot)**: Telegram and Discord bot for university timetables from ICS feeds.
+| Project | What it is | Links |
+| :-- | :-- | :-- |
+| 📦 **pytest-queryguard** | pytest plugin that fails tests hiding N+1 queries and missing indexes in SQLAlchemy 2 code. On PyPI (stable 0.3.0, 0.4 release candidates in progress). | [Source](https://github.com/MaciejZiel/pytest-queryguard) · [PyPI](https://pypi.org/project/pytest-queryguard/) |
+| ✈️ **Contrail** | Self-hosted real-time flight tracker with a WebGL map, a photo per aircraft, the full track and the route ahead. | [Try it live](https://contrail.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/contrail) |
+| 🚌 **Reroute** | Live Warsaw transit with delays; collects GTFS-Realtime data in PostgreSQL/PostGIS for an upcoming delay-prediction model. | [Try it live](https://reroute.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/Reroute) |
+| 🗂️ **CaseFlow** | Multi-tenant FastAPI backend for case and document workflows with RBAC, audit log and signed webhooks. | [Source](https://github.com/MaciejZiel/caseflow) |
+| 🎬 **clip_to_text** | Local video-to-text transcription with queued jobs, live progress and SRT export. | [Source](https://github.com/MaciejZiel/clip_to_text) |
+| ⚙️ **pgqueue** | Background job queue on PostgreSQL (`SKIP LOCKED`, leases, retries, dashboard). | [Try it live](https://pgqueue.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/pgqueue) |
+| 🤖 **plan-bot** | Telegram and Discord bot for university timetables from ICS feeds. | [Source](https://github.com/MaciejZiel/plan-bot) |
 
 Self-hosted demos: [System status](https://status.maciejzielinski.dev)
 
-## Open-source contributions
+## 🌍 Open source
 
 Merged:
 
@@ -31,4 +37,6 @@ Open:
 
 Also a [Stack Overflow answer](https://stackoverflow.com/a/80009289) on mapping a PostgreSQL view without a primary key in the SQLAlchemy ORM.
 
-Looking for a junior backend / Python developer role or internship in Warsaw or remote.
+## 📬 Contact
+
+[Portfolio](https://maciejzielinski.dev/) · [LinkedIn](https://www.linkedin.com/in/maciej-zieli%C5%84ski-28669b3a4/) · zielinski.macio@gmail.com
