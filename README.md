@@ -20,7 +20,7 @@ I'm a junior Python backend developer and a fourth-year Computer Science student
 | **CaseFlow** | Multi-tenant FastAPI backend for case and document workflows with RBAC, audit log and signed webhooks, and a Next.js frontend. Public read-only demo. | [Try it live](https://caseflow.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/caseflow) |
 | **clip_to_text** | Local video-to-text transcription with queued jobs, live progress and SRT export. | [Source](https://github.com/MaciejZiel/clip_to_text) |
 | **pgqueue** | Background job queue on PostgreSQL (`SKIP LOCKED`, leases, retries, dashboard). | [Try it live](https://pgqueue.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/pgqueue) |
-| **Gravity Studio** | Interactive Solar System viewer: a Pygame desktop app and a Three.js browser version, with orbital elements from JPL and textures from Solar System Scope. | [Try it live](https://gravity.maciejzielinski.dev) |
+| **Gravity Studio** | Interactive Solar System viewer: a Pygame desktop app and a Three.js browser version, with orbital elements from JPL and textures from Solar System Scope. | [Try it live](https://gravity.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/gravity_studio) |
 | **plan-bot** | Telegram and Discord bot for university timetables from ICS feeds. | [Source](https://github.com/MaciejZiel/plan-bot) |
 
 Self-hosted demos: [System status](https://status.maciejzielinski.dev)
