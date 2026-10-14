@@ -16,10 +16,11 @@ I'm a junior Python backend developer and a fourth-year Computer Science student
 | :-- | :-- | :-- |
 | **pytest-queryguard** | pytest plugin that fails tests hiding N+1 queries and missing indexes in SQLAlchemy 2 code. On PyPI (stable 0.3.0, 0.4 release candidates in progress). | [Source](https://github.com/MaciejZiel/pytest-queryguard) · [PyPI](https://pypi.org/project/pytest-queryguard/) |
 | **Contrail** | Self-hosted real-time flight tracker with a WebGL map, a photo per aircraft, the full track and the route ahead. | [Try it live](https://contrail.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/contrail) |
-| **Reroute** | Live Warsaw transit with delays; collects GTFS-Realtime data in PostgreSQL/PostGIS for an upcoming delay-prediction model. | [Try it live](https://reroute.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/Reroute) |
-| **CaseFlow** | Multi-tenant FastAPI backend for case and document workflows with RBAC, audit log and signed webhooks. | [Source](https://github.com/MaciejZiel/caseflow) |
+| **Reroute** | Live Warsaw transit map with delays, plus a LightGBM model that predicts arrival delays (about 9% lower error than a persistence baseline on held-out data). | [Try it live](https://reroute.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/Reroute) |
+| **CaseFlow** | Multi-tenant FastAPI backend for case and document workflows with RBAC, audit log and signed webhooks, and a Next.js frontend. Public read-only demo. | [Try it live](https://caseflow.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/caseflow) |
 | **clip_to_text** | Local video-to-text transcription with queued jobs, live progress and SRT export. | [Source](https://github.com/MaciejZiel/clip_to_text) |
 | **pgqueue** | Background job queue on PostgreSQL (`SKIP LOCKED`, leases, retries, dashboard). | [Try it live](https://pgqueue.maciejzielinski.dev) · [Source](https://github.com/MaciejZiel/pgqueue) |
+| **Gravity Studio** | Interactive Solar System viewer: a Pygame desktop app and a Three.js browser version, with orbital elements from JPL and textures from Solar System Scope. | [Try it live](https://gravity.maciejzielinski.dev) |
 | **plan-bot** | Telegram and Discord bot for university timetables from ICS feeds. | [Source](https://github.com/MaciejZiel/plan-bot) |
 
 Self-hosted demos: [System status](https://status.maciejzielinski.dev)
